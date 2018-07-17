@@ -9,7 +9,6 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
     private ViewPager mViewPager;
     private TabLayout mTabLayout;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         mTabLayout = findViewById(R.id.tab_layout);
         mViewPager = findViewById(R.id.view_layout);
         FragmentManager fragmentManager = getSupportFragmentManager();
-        PagerAdapter adapter = new PagerAdapter(fragmentManager,this);
+        PagerAdapter adapter = new PagerAdapter(this ,fragmentManager);
         mViewPager.setAdapter(adapter);
         mTabLayout.setupWithViewPager(mViewPager);
     }

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SecoundFragment">
+    tools:context=".SecondFragment">
 
     <ImageView
         android:paddingTop="@dimen/size_text"
@@ -17,6 +17,6 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="@string/Name_phim2"
-        android:textColor="@color/Mau_den"
+        android:textColor="@color/colorBlack"
         android:textSize="@dimen/size_text" />
 </LinearLayout>

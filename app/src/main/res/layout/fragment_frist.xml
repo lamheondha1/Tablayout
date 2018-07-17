@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FristFragment"
+    tools:context=".FirstFragment"
     android:orientation="vertical">
     <ImageView
         android:paddingTop="@dimen/size_text"
@@ -13,7 +13,7 @@
         android:adjustViewBounds="true"/>
     <TextView
         android:gravity="center_horizontal"
-        android:textColor="@color/Mau_den"
+        android:textColor="@color/colorBlack"
         android:textSize="@dimen/size_text"
         android:text="@string/Name_phim1"
         android:layout_width="match_parent"

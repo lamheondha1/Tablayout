@@ -12,7 +12,6 @@ import android.view.ViewGroup;
  * A simple {@link Fragment} subclass.
  */
 public class ThirdFragment extends Fragment {
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
