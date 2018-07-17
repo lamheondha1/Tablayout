@@ -8,7 +8,7 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 public class PagerAdapter  extends FragmentStatePagerAdapter{
      private Context mContext ;
 
-    public PagerAdapter(FragmentManager fragmentManager, Context context) {
+    public PagerAdapter(FragmentManager fragmentManager,Context context) {
 
         super(fragmentManager);
         this.mContext = context;
